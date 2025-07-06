@@ -7,7 +7,7 @@ export async function GET() {
   try {
     const res = await axios.get('https://api.api-ninjas.com/v1/quotes', {
       headers: {
-        'X-Api-Key': process.env.API_KEY || '532cxbW60RfcOxUm3c4T9w==hMaF2ua2p9fhQVEL',
+        'X-Api-Key': '532cxbW60RfcOxUm3c4T9w==hMaF2ua2p9fhQVEL',
       },
     });
 

@@ -46,7 +46,7 @@ router.push('/')
               key={idx}
               className="max-w-xl rounded bg-white/80 p-4 shadow"
             >
-              <p className="text-lg italic">"{quote}"</p>
+              <p className="text-lg italic">{'"' + quote + '"'}</p>
               <p className="text-right text-sm font-semibold">— {author}</p>
             </li>
           ))}

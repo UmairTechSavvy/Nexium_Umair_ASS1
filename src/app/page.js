@@ -25,7 +25,7 @@ export default function Home() {
           </p>
 
           <Button className="my-4" onClick={handleMovingToMainPage}>
-            Let’s begin
+            Let's begin
           </Button>
         </div>
       </main>
