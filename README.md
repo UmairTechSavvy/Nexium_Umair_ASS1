@@ -12,7 +12,7 @@ Next.js – for both frontend and backend logic
 
 ShadCN (with Tailwind CSS) – for UI components and styling
 
-Axios or Fetch API – to call the external quote API
+Axios – to call the external quote API
 
 API endpoint – to retrieve one quote at a time from a quote service
 
