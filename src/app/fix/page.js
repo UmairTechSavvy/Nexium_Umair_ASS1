@@ -48,7 +48,7 @@ export default function MainPage() {
               key={idx}
               className="max-w-xl rounded bg-white/80 p-4 shadow"
             >
-              {/* ✅ Escaped the quotes using template literal for Vercel */}
+              
               <p className="text-lg italic">{`"${quote}"`}</p>
               <p className="text-right text-sm font-semibold">— {author}</p>
             </li>
