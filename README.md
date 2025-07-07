@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Title: Quote Generator
+Project Overview
+This project is a web-based quote generator built using Next.js. It allows users to generate random quotes, which are fetched from an external API. Each quote includes both the quote text and the name of the author. The goal of the project is to provide users with short bursts of inspiration or reflection through a clean and responsive interface.
 
-## Getting Started
+How It Works
+When the user opens the website, they see a clean interface with a button to generate a quote. Upon clicking the button, a request is sent to an external quote API. The server fetches the data and returns a new quote along with the author's name. This information is then displayed on the screen.
 
-First, run the development server:
+The app uses ShadCN components for styling. This helps maintain a consistent and modern look throughout the interface. The design is kept minimal so that the focus stays on the quote itself.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Technologies Used
+Next.js – for both frontend and backend logic
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ShadCN (with Tailwind CSS) – for UI components and styling
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Axios or Fetch API – to call the external quote API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+API endpoint – to retrieve one quote at a time from a quote service
 
-## Learn More
+Key Features
+A simple interface that focuses on the quote and author
 
-To learn more about Next.js, take a look at the following resources:
+Button to generate a new quote on demand
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Real-time quote fetching from a reliable external API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Clean design using ShadCN components
 
-## Deploy on Vercel
+Purpose
+This project is designed as a small but practical example of how to build a full-stack application using Next.js. It demonstrates how to connect the frontend with a backend API, handle real-time data fetching, and build a modern user interface using a UI component library.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
