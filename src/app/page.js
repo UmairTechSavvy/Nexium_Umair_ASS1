@@ -8,7 +8,7 @@ export default function Home() {
   const router = useRouter();
 
   const handleMovingToMainPage = () => {
-    router.push('/fix');
+    router.push('/fix')
   };
 
   return (
