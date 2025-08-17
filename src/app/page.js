@@ -21,7 +21,7 @@ export default function Home() {
         <div className="absolute top-60 text-slate-500 text-2xl left-4 italic font-bold whitespace-normal">
           <p>
             A simple Quote generater which will keep you motivated
-            <br /> through some great quotes whenever needed
+            <br /> through some great quotes whenever needed.
           </p>
 
           <Button className="my-4" onClick={handleMovingToMainPage}>
